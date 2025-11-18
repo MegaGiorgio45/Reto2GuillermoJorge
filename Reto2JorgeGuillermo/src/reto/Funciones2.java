@@ -72,7 +72,7 @@ public class Funciones2 {
 		return (x-32)*5/9;
 	}
 	public static double litrosGalones(double x) {
-		return x*0.26417;
+		return x/0.264172;
 	}
 	public static double galonesLitros(double x) {
 		return 1/litrosGalones(x);
