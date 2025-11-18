@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Funciones1 {
 
 	public static double kilo(double x) {
-		return x * 2.20462;
+		return x / 2.20462;
 	}
 
 	public static double libra(double x) {
-		return x / 2.20462;
+		return x * 2.20462;
 	}
 
 	public static void menuPeso(Scanner sc) {
