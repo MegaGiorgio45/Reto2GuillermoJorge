@@ -78,6 +78,6 @@ public class Funciones2 {
 	}
 
 	public static double galonesLitros(double x) {
-		return x * 3.785;
+		return (x * 3.785);
 	}
 }

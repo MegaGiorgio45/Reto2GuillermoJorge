@@ -9,7 +9,7 @@ public class Reto2 {
 		Scanner sc = new Scanner(System.in);
 		int opcion = 0;
 		do {
-			System.out.println("Selecciona el tipo de conversión");
+			System.out.println("Selecciona el tipo de conversión.");
 			System.out.println("1. Longitud");
 			System.out.println("2. Peso");
 			System.out.println("3. Temperatura");
