@@ -16,7 +16,6 @@ public class Reto2 {
 			System.out.println("4. Volumen");
 			System.out.println("0. Salir");
 			opcion = Integer.parseInt(sc.nextLine());
-			double x;
 			switch (opcion) {
 			case 1: {
 				Funciones1.menuLongitud(sc);
@@ -27,11 +26,11 @@ public class Reto2 {
 				break;
 			}
 			case 3: {
-				x = Funciones.dimeDouble("Dime numero", sc);
+				Funciones2.menuTemperatura(sc);
 				break;
 			}
 			case 4: {
-				x = Funciones.dimeDouble("Dime numero", sc);
+				Funciones2.menuVolumen(sc);
 				break;
 			}
 			case 0: {
