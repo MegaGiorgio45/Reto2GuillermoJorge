@@ -2,12 +2,12 @@ package reto;
 
 public class Funciones1 {
 
-	public static double celsius(double x) {
-		return (x * (9 / 5)) + 32;
+	public static double kilo(double x) {
+		return x*2.20462;
 	}
 
-	public static double fahrenheit(double x) {
-		return (x - 32) * 5 / 9;
+	public static double libra(double x) {
+		return x/2.20462;
 	}
 	
 	public static double kilometro(double x) {
